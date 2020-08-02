@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>First Page</title>
+	</head>
+	<header id="navigation">
+    <h2>HeathCare</h2>
+    <nav>
+        <a href="index.html">Help</a>
+    </nav>
+</header>
+	<style type="text/css">
+		body {
+ 			background-image: url("hpp.jpg");
+ 			background-color:#FBEAEB;
+		}
+		#navigation {
+		    width: 100%;
+		    padding: 20px;
+		    height: 10vh;
+		    background:#2F3C7E;
+		    display: flex;
+		    color:#FBEAEB;
+		    justify-content: space-between;
+		    align-items: center;
+		}
+	#footer{
+			  position: fixed;
+			  left: 0;
+			  bottom: 0;
+			  height: 8vh;
+			  width: 100%;
+			  background-color:#2F3C7E;
+			  color:#FBEAEB;
+			  text-align: center;
+		}
+		a{
+			color: #FBEAEB;
+		}
+		nav {
+    		display: block;
+		}
+		.usr{
+		    height: 200px;
+    		width: 200px;
+    		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    		display: flex;
+    		flex-direction: column;
+    		align-items: center;
+    		justify-content: center;
+    		overflow: hidden;
+    		background:#2F3C7E;
+    		float: left;
+		}
+		.posts {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    }
+    h3{
+   		margin-top: 70px;
+  		margin-bottom: 50px;
+  		margin-right: 70px;
+  		margin-left: 70px;
+    }
+    button {
+		  background-color:#FBEAEB; /* Green */
+		  border: none;
+		  color:#2F3C7E;
+		  padding: 5px 10px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+}
+
+    h4{
+    	margin-top: 40px;
+  		margin-bottom: 30px;
+  		margin-right: 40px;
+  		margin-left: 40px;
+    }
+		* {
+    		padding: 0;
+    		margin: 0;
+    		font-family: Verdana, Geneva, Tahoma, sans-serif;
+    		box-sizing: border-box;
+		}
+		
+				</style>
+	<body>
+		<center>
+		<h3>Welcome to Our Site!</h3>
+		<h4>Login as</h4>
+		<div class="posts">
+		<div class="section">
+		<div class="usr">
+		<img src="admin.jpg" height="100"  width="100" alt="Admin">
+		<button onclick="location.href = '/Login_as_admin.html';" id="myButton" value="Admin">Admin</button></div>
+		<div class="usr">
+		<img src="doctor.jpg" height="100"  width="100" alt="Doctor">
+		<button onclick="location.href = '/Login_as_doctor.html';" id="myButton" value="Doctor" >Doctor</button><br>
+		</div>
+		<div class="usr">
+		<img src="patient.jpg" height="100"  width="100" alt="Patient">
+		<button onclick="location.href = '/Login_as_patient.html';" id="myButton" value="Patient">Patient</button><br>
+		</div>
+		<div class="usr">
+		<img src="assistant.jpg" height="100"  width="100" alt="Assistant">
+		<button onclick="location.href = '/Login_as_assistant.html';" id="myButton" value="Assistant" >Assistant</button>	
+		</div>
+		<div class="usr">
+		<img src="manager.jpg" height="100"  width="100" alt="Manager">
+		<button onclick="location.href = '/Login_as_hospitalManager.html';" id="myButton" value="Manager" >Manager</button>
+		</div>
+		
+	
+	</div>
+</div>
+	</center>
+	<footer id="footer">
+    <nav>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+    </nav>
+</footer>
+	</body>
+</html>
