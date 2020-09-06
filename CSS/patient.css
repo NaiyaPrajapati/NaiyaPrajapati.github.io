@@ -1,0 +1,47 @@
+
+     h3{
+      margin-top: 100px;
+      margin-bottom: 100px: 
+    }
+
+    #navigation {
+        width: 100%;
+        padding: 20px;
+        height: 10vh;
+        background:#55761a;
+        display: flex;
+        color:#f6f7cd;
+        justify-content: space-between;
+        align-items: center;
+       position:fixed;
+        top:0;
+        right: 0;
+    
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+
+    }
+  #footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 8vh;
+        width: 100%;
+        background-color:#55761a;
+        color:#f6f7cd;
+        text-align: center;
+
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+    }
+
+    a{
+      color: #FBEAEB;
+    }
+    nav {
+        display: block;
+    }  
