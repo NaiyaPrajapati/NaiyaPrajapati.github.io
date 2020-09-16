@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Appointment Request</title>
-		<link rel="stylesheet" type="text/css" href="CSS/patient.css" />
-		<style type="text/css">
-		body{
-			background-color:#f6f7cd;
-			color:#55761a;
+
+<head>
+	<title>Appointment Request</title>
+	<link rel="stylesheet" type="text/css" href="CSS/patient.css" />
+	<style type="text/css">
+		body {
+			background-color: #f6f7cd;
+			color: #55761a;
 		}
 	</style>
-	</head>
-	<body>
+</head>
+
+<body>
 	<header id="navigation">
-    <h2>HeathCare</h2>
-    <nav>
-      <button onclick="location.href = '';" name="Help">Profile</button>
-      <button onclick="location.href = '/Request_of_appointment_by_patient.html';" name="Help">Make Appointment</button>
-      <button onclick="location.href = '/Feedback_of_patient.html';" name="Help">Feedback</button>
-      <button onclick="location.href = '/Homepage_patient.html';" name="Back">Back</button>
-    </nav>
-</header>
-		<center>
+		<h2>HeathCare</h2>
+		<nav>
+			<button onclick="location.href = '';" name="Help">Profile</button>
+			<button onclick="location.href = '/Request_of_appointment_by_patient.html';" name="Help">Make
+				Appointment</button>
+			<button onclick="location.href = '/Feedback_of_patient.html';" name="Help">Feedback</button>
+			<button onclick="location.href = '/Homepage_patient.html';" name="Back">Back</button>
+		</nav>
+	</header>
+	<center>
 		<h3>Make a appointment Request</h3>
 		<form action="/Homepage_patient.html">
 			<table>
@@ -30,13 +33,13 @@
 				</tr>
 				<tr>
 					<td>Assigned identification number</br>
-					(Only If you are again visiting for last health problem):</td>
+						(Only If you are again visiting for last health problem):</td>
 					<td><input type="number" required=""></td>
 				</tr>
 				<tr>
 					<td>Age:</td>
 					<td><input type="number" required></td>
-				</tr>	
+				</tr>
 				<tr>
 					<td>City:</td>
 					<td><input type="text" required></td>
@@ -81,7 +84,7 @@
 							<option value="Uttar Pradesh">Uttar Pradesh</option>
 							<option value="Uttarakhand">Uttarakhand</option>
 							<option value="West Bengal">West Bengal</option>
-							</select>
+						</select>
 					</td>
 				</tr>
 				<tr>
@@ -92,26 +95,27 @@
 					<td>Hospital:</td>
 					<td>
 						<select id="hospital" name="hospital">
-     					 <option value="h1">Apollo Hospital</option>
-     					 <option value="h2">Sterling Hospital</option>
-    					 <option value="h3">SAL Hospital</option>
-  					    </select>
+							<option value="h1">Apollo Hospital</option>
+							<option value="h2">Sterling Hospital</option>
+							<option value="h3">SAL Hospital</option>
+						</select>
 					</td>
 				</tr>
 				<tr>
 					<td>Symptoms</td>
-				<td>
-					<textarea placeholder="Write what you feel"></textarea>
-				</td>
+					<td>
+						<textarea placeholder="Write what you feel"></textarea>
+					</td>
 			</table>
 			<input type="submit" name="submit" value="submit">
 		</form>
 	</center>
-<footer id="footer">
-    <nav>
-        <p style="height:3px;">Created By:NV Infotech</p>
-        <a href="">Contact Us</a>
-    </nav>
-</footer>
-	</body>
+	<footer id="footer">
+		<nav>
+			<p style="height:3px;">Created By:NV Infotech</p>
+			<a href="">Contact Us</a>
+		</nav>
+	</footer>
+</body>
+
 </html>

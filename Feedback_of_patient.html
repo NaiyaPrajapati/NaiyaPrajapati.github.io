@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="CSS/patient.css" />  
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style type="text/css">
-    body{
-      background-color:#f6f7cd;
-      color:#55761a;
-    }
-.checked {
-  color: orange;
-}
 
-</style>
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/patient.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    body {
+      background-color: #f6f7cd;
+      color: #55761a;
+    }
+
+    .checked {
+      color: orange;
+    }
+  </style>
 </head>
+
 <body>
-<header id="navigation">
+  <header id="navigation">
     <h2>HeathCare</h2>
     <nav>
       <button onclick="location.href = '';" name="Help">Profile</button>
@@ -24,75 +26,75 @@
       <button onclick="location.href = '/Feedback_of_patient.html';" name="Help">Feedback</button>
       <button onclick="location.href = '/Homepage_patient.html';" name="Back">Back</button>
     </nav>
-</header>
-<center>
-<h3>Feedback Form</h3>
-<div >
-    <table>
-    <tr>
-      <td>First Name:</td>
-    <td><input type="text" id="fname" name="firstname" placeholder="Your name.."></td>
-    </tr>
-    <tr>
-      <td>Last Name</td>
-      <td><input type="text" id="lname" name="lastname" placeholder="Your last name.."></td>
-    </tr>
-    <tr>
-      <td>Hospital</td>
-      <td><select id="hospital" name="hospital">
-      <option value="h1">Apollo Hospital</option>
-      <option value="h2">Sterling Hospital</option>
-      <option value="h3">SAL Hospital</option>
-      </select></td>
-    </tr>
-    <tr>
-    <td>Subject</td>
-    <td><textarea id="subject" name="subject" placeholder="Write something.." onchange="my()"></textarea></td>
-    </tr>
-    <tr>
-      <td>Rating:</td>
-      <td>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
+  </header>
+  <center>
+    <h3>Feedback Form</h3>
+    <div>
+      <table>
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" id="fname" name="firstname" placeholder="Your name.."></td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td><input type="text" id="lname" name="lastname" placeholder="Your last name.."></td>
+        </tr>
+        <tr>
+          <td>Hospital</td>
+          <td><select id="hospital" name="hospital">
+              <option value="h1">Apollo Hospital</option>
+              <option value="h2">Sterling Hospital</option>
+              <option value="h3">SAL Hospital</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>Subject</td>
+          <td><textarea id="subject" name="subject" placeholder="Write something.." onchange="my()"></textarea></td>
+        </tr>
+        <tr>
+          <td>Rating:</td>
+          <td>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
 
-      </td>
-    </tr>
-  </table>
-  <p>click anywhere in the page after filing all fields</p>
-  
-</div>
+          </td>
+        </tr>
+      </table>
+      <p>click anywhere in the page after filing all fields</p>
+
+    </div>
     <button onclick="fun()">Submit</button>
     <br><br>
-          <form class="text-center">
+    <form class="text-center">
 
-            <table border>
-              <tr>
-                <td id="t1"></td>
-                <td id="v1"></td>
-              </tr>
-              <tr>
-                <td id="t2" colspan="2"></td>
-              </tr>
-              
-            </table>  
-         </form>
+      <table border>
+        <tr>
+          <td id="t1"></td>
+          <td id="v1"></td>
+        </tr>
+        <tr>
+          <td id="t2" colspan="2"></td>
+        </tr>
+
+      </table>
+    </form>
     <p id="demo"></p>
-</div>
-</center>
-<footer id="footer">
+    </div>
+  </center>
+  <footer id="footer">
     <nav>
-        <p style="height:3px;">Created By:NV Infotech</p>
-        <a href="">Contact Us</a>
+      <p style="height:3px;">Created By:NV Infotech</p>
+      <a href="">Contact Us</a>
     </nav>
-</footer>
+  </footer>
 
-<script type="text/javascript" src="JS/feedback.js">
-  
+  <script type="text/javascript" src="JS/feedback.js">
+
   </script>
 
 </body>
+
 </html>
-    
